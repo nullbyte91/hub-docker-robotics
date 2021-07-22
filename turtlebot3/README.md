@@ -33,3 +33,7 @@ roslaunch turtlebot3_dqn turtlebot3_dqn_stage_1.launch
 docker ps #return image ID
 docker image_ID kinetic:v1 
 ```
+
+## To Do:
+1. Enable GPU access for RL training
+2. SSH tunnel to access process
